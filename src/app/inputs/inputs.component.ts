@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputsComponent implements OnInit {
 
-  words: string;
+  words: string = '';
 
 
   constructor() { }
@@ -15,8 +15,8 @@ export class InputsComponent implements OnInit {
   ngOnInit() {
   }
 
-  doStuff($event){
-    this.words = $event.target.value;
+  doStuff(){
+    console.log(this.words);
   }
 
 }

@@ -1,7 +1,10 @@
 
+
+<h2>{{words}} </h2>
+
 <form class="example-form">
   <mat-form-field class="example-full-width">
-    <input matInput placeholder="Favorite food" value=""(keyup)=doStuff($event)  >
+    <input [(ngModel)]="words" [ngModelOptions]="{standalone: true}" matInput placeholder="Favorite food" >
   </mat-form-field>
 
   <mat-form-field class="example-full-width">
