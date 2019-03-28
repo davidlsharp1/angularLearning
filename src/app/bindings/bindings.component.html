@@ -1,0 +1,14 @@
+
+<mat-toolbar>2 Way Binding</mat-toolbar>
+
+  <mat-card>
+    <div class="example-container">
+      <mat-form-field>
+        <input #theWords matInput placeholder="Input1" [(ngModel)]="words" >
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Input2" [(ngModel)]="words">
+      </mat-form-field>
+     </div>
+     <button mat-raised-button (click)="openSnackBar(theWords.value)">Clear</button>
+    </mat-card>
