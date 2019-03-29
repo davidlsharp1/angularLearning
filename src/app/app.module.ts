@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { InputsComponent } from './inputs/inputs.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { BindingsComponent } from './bindings/bindings.component';
@@ -68,7 +67,7 @@ import {MatButtonModule} from '@angular/material/button';
       MatSnackBarModule,
 
     ],
-  declarations: [ AppComponent, HelloComponent, InputsComponent, BindingsComponent ],
+  declarations: [ AppComponent, HelloComponent, BindingsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
