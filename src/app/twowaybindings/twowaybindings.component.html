@@ -4,10 +4,10 @@
   <mat-card>
     <div class="example-container">
       <mat-form-field>
-        <input #theWords matInput placeholder="Input1" [(ngModel)]="words" >
+        <input #theWords matInput placeholder="Type Here" [(ngModel)]="words" >
       </mat-form-field>
       <mat-form-field>
-        <input matInput placeholder="Input2" [(ngModel)]="words">
+        <input matInput placeholder="Or Type Here" [(ngModel)]="words">
       </mat-form-field>
      </div>
      <button mat-raised-button (click)="openSnackBar(theWords.value)">Clear</button>

@@ -47,6 +47,7 @@ import {
 import { NgModel, } from '@angular/forms';
 
 import {MatButtonModule} from '@angular/material/button';
+import { OnewaybindingsComponent } from './onewaybindings/onewaybindings.component';
 
 
 
@@ -67,7 +68,7 @@ import {MatButtonModule} from '@angular/material/button';
       MatSnackBarModule,
 
     ],
-  declarations: [ AppComponent, HelloComponent, BindingsComponent ],
+  declarations: [ AppComponent, HelloComponent, BindingsComponent, OnewaybindingsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
