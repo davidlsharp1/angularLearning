@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { BindingsComponent } from './bindings/bindings.component';
+import { BindingsComponent } from './twowaybindings/twowaybindings.component';
 
 import {
   MatAutocompleteModule,

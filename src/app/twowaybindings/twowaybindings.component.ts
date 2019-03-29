@@ -4,8 +4,8 @@ import { MatSnackBar } from '@angular/material';
 
 @Component({
   selector: 'app-bindings',
-  templateUrl: './bindings.component.html',
-  styleUrls: ['./bindings.component.css']
+  templateUrl: './twowaybindings.component.html',
+  styleUrls: ['./twowaybindings.component.css']
 })
 export class BindingsComponent implements OnInit {
 
